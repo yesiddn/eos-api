@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EosApi", "EosApi\EosApi.csproj", "{D6A01A45-21F5-4B3B-BB34-CE9F2E567E21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{5C7259B8-123E-454C-AC26-093748C22A15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{D6A01A45-21F5-4B3B-BB34-CE9F2E567E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6A01A45-21F5-4B3B-BB34-CE9F2E567E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6A01A45-21F5-4B3B-BB34-CE9F2E567E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C7259B8-123E-454C-AC26-093748C22A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C7259B8-123E-454C-AC26-093748C22A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C7259B8-123E-454C-AC26-093748C22A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C7259B8-123E-454C-AC26-093748C22A15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
