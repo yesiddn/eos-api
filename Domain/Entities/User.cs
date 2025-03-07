@@ -1,11 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Infrastructure;
+namespace Domain;
 
 public class User
 {
     [Key]
-    [Required]
     public Guid Id { get; set; }
 
     [Required]
