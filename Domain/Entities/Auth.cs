@@ -11,9 +11,8 @@ public class Auth
     [Required]
     public string RefreshToken { get; set; } = string.Empty;
 
-    [Required]
     public Guid UserId { get; set; }
 
     [ForeignKey("UserId")]
-    public User User { get; set; } = new User();
+    public virtual User User { get; set; } = new User();
 }

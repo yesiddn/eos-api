@@ -23,25 +23,23 @@ public class Task
 
     public Guid PriorityId { get; set; }
 
-    [Required]
     public Guid GroupId { get; set; }
 
-    [Required]
     public Guid UserId { get; set; }
 
     public Guid ParentTaskId { get; set; }
 
     [ForeignKey("PriorityId")]
-    public Priority Priority { get; set; } = new Priority();
+    public virtual Priority Priority { get; set; } = new Priority();
 
     [ForeignKey("GroupId")]
-    public Group Group { get; set; } = new Group();
+    public virtual Group Group { get; set; } = new Group();
 
     [ForeignKey("UserId")]
-    public User User { get; set; } = new User();
+    public virtual User User { get; set; } = new User();
 
     [ForeignKey("ParentTaskId")]
-    public Task ParentTask { get; set; } = new Task();
+    public virtual Task ParentTask { get; set; } = new Task();
 
-    public List<Task> SubTasks { get; set; } = new List<Task>();
+    public virtual List<Task> SubTasks { get; set; } = new List<Task>();
 }
